@@ -1,0 +1,109 @@
+[debug] [2022-06-25T03:28:27.961Z] ----------------------------------------------------------------------
+[debug] [2022-06-25T03:28:27.963Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-25T03:28:27.964Z] CLI Version:   11.1.0
+[debug] [2022-06-25T03:28:27.964Z] Platform:      win32
+[debug] [2022-06-25T03:28:27.964Z] Node Version:  v16.15.1
+[debug] [2022-06-25T03:28:27.965Z] Time:          Sat Jun 25 2022 08:58:27 GMT+0530 (India Standard Time)
+[debug] [2022-06-25T03:28:27.965Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-25T03:28:27.974Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-25T03:28:27.975Z] > authorizing via signed-in user (d.1.roushan@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ASUS\Desktop\newsApp\newsapp -functionBased
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-06-25T03:28:56.955Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-06-25T03:28:56.956Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"newsapp","name":"newsapp"}
+[debug] [2022-06-25T03:28:58.660Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2022-06-25T03:28:58.660Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2022-06-25T03:28:58.970Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:287:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID newsapp. Please try again with a unique project ID.
+[debug] [2022-06-25T03:29:15.642Z] ----------------------------------------------------------------------
+[debug] [2022-06-25T03:29:15.644Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-25T03:29:15.645Z] CLI Version:   11.1.0
+[debug] [2022-06-25T03:29:15.645Z] Platform:      win32
+[debug] [2022-06-25T03:29:15.645Z] Node Version:  v16.15.1
+[debug] [2022-06-25T03:29:15.646Z] Time:          Sat Jun 25 2022 08:59:15 GMT+0530 (India Standard Time)
+[debug] [2022-06-25T03:29:15.646Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-25T03:29:15.653Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-25T03:29:15.654Z] > authorizing via signed-in user (d.1.roushan@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ASUS\Desktop\newsApp\newsapp -functionBased
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-25T03:29:41.551Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-06-25T03:29:42.459Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-06-25T03:29:42.459Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-06-25T03:30:24.268Z] ----------------------------------------------------------------------
+[debug] [2022-06-25T03:30:24.270Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-25T03:30:24.271Z] CLI Version:   11.1.0
+[debug] [2022-06-25T03:30:24.271Z] Platform:      win32
+[debug] [2022-06-25T03:30:24.271Z] Node Version:  v16.15.1
+[debug] [2022-06-25T03:30:24.272Z] Time:          Sat Jun 25 2022 09:00:24 GMT+0530 (India Standard Time)
+[debug] [2022-06-25T03:30:24.272Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-25T03:30:24.280Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-25T03:30:24.280Z] > authorizing via signed-in user (d.1.roushan@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ASUS\Desktop\newsApp\newsapp -functionBased
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-06-25T03:30:52.347Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2022-06-25T03:30:52.347Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"news","name":"news"}
+[debug] [2022-06-25T03:30:54.093Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2022-06-25T03:30:54.093Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id must be at least 6 characters long]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id must be at least 6 characters long"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2022-06-25T03:30:54.315Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id must be at least 6 characters long]
+    at responseToError (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:287:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
